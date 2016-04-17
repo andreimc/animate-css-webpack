@@ -16,7 +16,7 @@ function flattenConfig(config) {
 module.exports = function(content) {
     this.cacheable(true);
     var config = flattenConfig(this.exec(content, this.resourcePath));
-    var start = "@import          \"source/_base.css\";\n";
+    var start = "@import          \"~animate.css/source/_base.css\";\n";
     var allStyles = flattenConfig(styles);
 
     source = start + Object.keys(allStyles.styles).filter(function(style) {
