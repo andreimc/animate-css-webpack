@@ -168,6 +168,10 @@ Animate.css is powered by [gulp.js](http://gulpjs.com/), and you can create cust
 $ cd path/to/animate.css/
 $ sudo npm install
 ```
+Webpack build
+```
+
+```
 
 Next, run `gulp` to compile your custom builds. For example, if you want only some of the the “attention seekers”, simply edit the `animate-config.json` file to select only the animations you want to use.
 
