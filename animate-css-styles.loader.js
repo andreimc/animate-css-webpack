@@ -1,4 +1,4 @@
-var styles = require('./animate-css-config.js');
+var styles = require('./animate-css.config.js');
 
 function flattenConfig(config) {
     var stylesConfig = config.styles;
