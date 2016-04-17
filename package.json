@@ -1,41 +1,24 @@
 {
   "name": "animate-css-webpack",
-  "version": "3.5.2",
+  "version": "3.5.3",
   "main": "index.js",
+  "loader": "index.loader.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/andreimc/animate-css-webpack.git"
   },
   "author": {
-    "name": "Daniel Eden webpack Andrei Miulescu"
+    "name": "Andrei Miulescu"
   },
   "homepage": "http://daneden.me/animate",
   "license": "MIT",
   "style": "./animate.css",
-  "jspm": {
-    "main": "animate.css!",
-    "format": "global",
-    "directories": {
-      "lib": "./"
-    }
-  },
   "dependencies": {
     "css-loader": "~0.17.0",
     "less-loader": "~2.2.0",
     "style-loader": "~0.12.3"
   },
-  "devDependencies": {
-    "autoprefixer": "^6.3.2",
-    "cssnano": "^3.5.1",
-    "gulp": "^3.9.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-header": "^1.7.1",
-    "gulp-postcss": "^6.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-util": "^3.0.7",
-    "run-sequence": "^1.1.5"
-  },
-  "spm": {
-    "main": "./animate.css"
+  "peerDependencies": {
+    "animate.css": ">=3.5.1"
   }
 }

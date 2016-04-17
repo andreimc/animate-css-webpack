@@ -22,7 +22,7 @@ module.exports = function(content) {
     source = start + Object.keys(allStyles.styles).filter(function(style) {
             return config.styles[style];
         }).map(function(style) {
-                return "@import \"./source/" + style + ".css\";";
+                return "@import \"~animate.css/source/" + style + ".css\";";
             }).join("\n");
     return source;
 };

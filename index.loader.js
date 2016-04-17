@@ -15,11 +15,11 @@ module.exports.pitch = function (remainingRequest) {
     console.error('ERROR: ' + msg);
     throw new Error(msg);
   }
-  
+
   var config = require(configFilePath);
   var styleLoader = config.styleLoader || 'style-loader!css-loader';
 
   var styleLoaderCommand = 'require(' + JSON.stringify('-!' + styleLoader + '!' +
-      require.resolve('./animations-css-styles.loader.js') + '!' + configFilePath) + ');';
+      require.resolve('./animate-css-styles.loader.js') + '!' + configFilePath) + ');';
   return styleLoaderCommand;
 };

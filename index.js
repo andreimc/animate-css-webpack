@@ -1,1 +1,1 @@
-require("style!css!./animate-css-styles!./animate-css.config.js");
+require("style!css!./animate-css-styles!./animate-css.config");
