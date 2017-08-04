@@ -1,4 +1,4 @@
-#animate-css-webpack
+# animate-css-webpack [![Npm](https://img.shields.io/npm/v/animate-css-webpack.svg)](https://www.npmjs.com/package/animate-css-webpack)
 
 Webpack loader for animate.css
 
