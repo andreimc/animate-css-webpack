@@ -155,4 +155,4 @@ animate-css-webpack is licensed under the MIT license. (http://opensource.org/li
 ## Contributing
 Pull requests are the way to go here. Submit a PR and I will review
 once I get a chance, there are no hard guidelines for PRs just follow
-some sort of a sesnible style similar to what is there.
+some sort of a sensible style similar to what is there.
